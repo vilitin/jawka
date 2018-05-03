@@ -1,0 +1,113 @@
+.profile_wrap {
+    min-height: 100px;
+    padding: 15px;
+    position: relative;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #EEE;
+}
+
+.profile_wrap .profile_img_wrap {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100px;
+    margin-right: 22px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.profile_img_wrap .user_image {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.profile_img_wrap .change_image {
+    background: rgba(78,144,254,.7);
+    bottom: 0;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    left: 0;
+    top: inherit;
+    line-height: 9px;
+    position: absolute;
+    padding: 7px 0;
+    text-align: center;
+    width: 100px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.profile_wrap .profile_info_wrap {
+    padding-left: 122px;
+}
+
+.profile_data_wrap {
+    width: 350px;
+}
+
+.profile_info_wrap .user_actions {
+    color: #888;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.profile_info_wrap .user_header {
+    font-weight: bold;
+    margin: 0px 0 7px;
+    font-size: 1.4em;
+    line-height: 120%;
+}
+
+.profile_info_wrap .user_username {
+    color: #999;
+    margin-bottom: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+#stat a {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+#stat .digit {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+#stat .stat_label {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    color: #3081a3;
+    max-width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#stat .stat_separator {
+    display: block;
+    height: 33px;
+    width: 0;
+    margin: 0 7px;
+    padding: 0;
+    float: right;
+    border-style: none;
+    border-left: 1px solid #dfdfdf;
+}

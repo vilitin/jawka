@@ -1,0 +1,49 @@
+
+
+
+.fb-icon-btn.fb-btn-large {
+    position: relative;
+    padding-left: 51px;
+}
+
+.btn-facebook {
+    border-color: #3B5998;
+    border-bottom-color: #263a63;
+    background-color: #3B5998;
+    color: #fff;
+    display: block;
+    margin-bottom: 0;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 1.43;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.fb-btn-large {
+    padding: 9px 27px;
+    font-size: 16px;
+}
+
+.fb-btn-large .icon.icon-facebook {
+    margin-right: 13px;
+}
+
+.fb-icon-btn.fb-btn-large .icon {
+    position: absolute;
+    font-size: 24px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-facebook {
+    background-image: url(/img/facebook.png);
+    width: 32px;
+    height: 32px;
+}
